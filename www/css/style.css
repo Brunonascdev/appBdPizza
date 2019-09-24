@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*:focus{
+  outline: 0;
+}
+
+html,body{
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo{
+  margin-top: 40%;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 38px;
+  color: white;
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+.tituloDois{
+    margin-top: 20%;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 38px;
+  color: white;
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+.labelSabor{
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 8%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nomeSabor{
+  width: 80%;
+  display: flex;
+  margin-left: 8.5%;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 3px;
+  border: 1px black solid;
+  height: 40px;
+  padding-left: 5px; 
+}
+
+.labelValor{
+  margin-top: 10%;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 8%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.preçoValor{
+  width: 80%;
+  display: flex;
+  margin-left: 8.5%;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 3px;
+  border: 1px black solid;
+  height: 40px;
+  padding-left: 5px; 
+}
+
+.btnAlinhamento{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.cadastrarPizza{
+  padding: 15px;
+  width: 45%;
+  border: 2px white solid;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-left: 6%;
+}
+
+.listarPizza{
+  font-family: 'Roboto', sans-serif;
+  border: 2px white solid;
+  background: none;
+  width: 30%;
+  margin-right: 7%;
+  font-size: 16px;
+  color: white;
+  border-radius: 3px;
+}
+
+.cadastrarPizza:active{
+  background-color: white;
+  color: #ED213A;
+}
+
+.listarPizza:active{
+  background-color: white;
+  color: #ED213A;
+}
