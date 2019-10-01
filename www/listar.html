@@ -17,6 +17,21 @@
   <div class="container">
     <h3 class="tituloDois">Cadastros</h3>
     
+    <label class="labelListar"> Pizzas Cadastradas: </label>
+    <select class="listas" id="selectListas"></select>
+    <label class="labelCodigo"> Código: </label>
+    <input type="text" class="codigoPizza" id="codigo">
+    <label class="labelSaborpizza"> Sabor: </label>
+    <input type="text" class="saborPizza" placeholder="Portuguesa" id="sabor">
+    <label class="labelPreço"> Preço: </label>
+    <input type="number" class="preçoPizza" placeholder="89,99" id="preço">
+
+      <div class="btnAlinhamentoOutro">
+      <button class="salvarPizza" id="savePizza"><i class="fas fa-save"></i></button>
+      <button class="registrarPizza" id="registerPizza"><i class="fas fa-edit"></i></button>
+      <button class="cancelarPizza" id="cancelPizza"><i class="fas fa-times"></i></button>
+      <button class="excluirPizza" id="deletePizzar"><i class="far fa-trash-alt"></i></button>
+    </div>
   </div>
 </body>
 </html>
