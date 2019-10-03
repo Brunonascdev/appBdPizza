@@ -11,7 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/style.css">
-
+<script>
+  $(document).ready(function (){
+    carregaLista();
+  });
+</script>
 </head>
 <body>
   <div class="container">
@@ -21,11 +25,11 @@
     <label class="labelListar"> Pizzas Cadastradas: </label>
     <select class="listas" id="selectListas"></select>
     <label class="labelCodigo"> Código: </label>
-    <input type="text" class="codigoPizza" id="codigo">
+    <input type="text" class="codigoPizza" id="codigo" readonly>
     <label class="labelSaborpizza"> Sabor: </label>
-    <input type="text" class="saborPizza" placeholder="Portuguesa" id="sabor">
+    <input type="text" class="saborPizza" id="sabor" readonly>
     <label class="labelPreço"> Preço: </label>
-    <input type="number" class="preçoPizza" placeholder="89,99" id="preço">
+    <input type="number" class="preçoPizza" id="preço" readonly>
 
       <div class="btnAlinhamentoOutro">
       <button class="salvarPizza" id="savePizza"><i class="fas fa-save"></i></button>

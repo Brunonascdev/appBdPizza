@@ -10,7 +10,6 @@
 html,body{
 background: rgb(32,32,32);
 background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(37,37,37,1) 35%, rgba(15,15,15,1) 100%);
-
 }
 
 .container{
@@ -187,7 +186,7 @@ background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(37,37,37,1) 35%, rg
 
 .salvarPizza:active, .registrarPizza:active, .cancelarPizza:active, .excluirPizza:active{
   background-color: white;
-  color: #ED213A;
+  color: black;
 }
 
 /* ---------------- */
@@ -216,12 +215,12 @@ background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(37,37,37,1) 35%, rg
 
 .cadastrarPizza:active{
   background-color: white;
-  color: #ED213A;
+  color: black;
 }
 
 .listarPizza:active{
   background-color: white;
-  color: #ED213A;
+  color: black;
 }
 
 .labelListar{
@@ -243,6 +242,7 @@ background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(37,37,37,1) 35%, rg
   border: 1px black solid;
   height: 40px;
   padding-left: 5px; 
+  background-color: white;
 }
 
 .labelCodigo{
@@ -313,7 +313,6 @@ background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(37,37,37,1) 35%, rg
 }
 
 .voltar{
-  background-color: purple;
   width: 20%;
   height: 30px;
   color: white;
