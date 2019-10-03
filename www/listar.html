@@ -11,11 +11,6 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/style.css">
-<script>
-  $(document).ready(function (){
-    carregaLista();
-  });
-</script>
 </head>
 <body>
   <div class="container">
@@ -29,7 +24,7 @@
     <label class="labelSaborpizza"> Sabor: </label>
     <input type="text" class="saborPizza" id="sabor" readonly>
     <label class="labelPreço"> Preço: </label>
-    <input type="number" class="preçoPizza" id="preço" readonly>
+    <input type="number" class="preçoPizza" id="preço" readonly step="any">
 
       <div class="btnAlinhamentoOutro">
       <button class="salvarPizza" id="savePizza"><i class="fas fa-save"></i></button>
